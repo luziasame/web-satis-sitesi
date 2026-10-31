@@ -1,0 +1,124 @@
+:root {
+    --arka-plan: #0d0d0d;
+    --altin-sarisi: #d4af37;
+    --hafif-sari: #f4e899;
+    --koyu-gri: #1a1a1a;
+    --kenarlik: #333333;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--arka-plan);
+    color: var(--hafif-sari);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 8%;
+    border-bottom: 1px solid var(--kenarlik);
+}
+
+
+.logo a h1 {
+    color: var(--altin-sarisi);
+    font-size: 2rem;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+
+.logo a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    color: var(--hafif-sari);
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--altin-sarisi);
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 25px;
+    background-color: var(--koyu-gri);
+    border-radius: 8px;
+    border: 1px solid var(--kenarlik);
+}
+
+section h2,
+section h4 {
+    color: var(--altin-sarisi);
+    margin-bottom: 15px;
+}
+
+section p {
+    color: var(--hafif-sari);
+    font-size: 1rem;
+}
+
+section a {
+    color: var(--altin-sarisi);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+section a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #000000;
+    border-top: 1px solid var(--kenarlik);
+    padding: 30px 20px 15px 20px;
+    margin-top: 50px;
+}
+
+#iletisim h4 {
+    color: var(--altin-sarisi);
+    font-size: 1.2rem;
+}
+
+#iletisim p {
+    color: var(--hafif-sari);
+    margin-bottom: 8px;
+}
+
+#iletisim strong {
+    color: var(--altin-sarisi);
+}
+
+.telif {
+    text-align: center;
+    color: #888888;
+    font-size: 0.85rem;
+    margin-top: 25px;
+}
