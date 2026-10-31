@@ -7,17 +7,17 @@ BLM2537 Ağ Tabanlı Programlama - web satis sitesi projesi
 **JavaScript (Vanilla JS):** İlerleyen aşamalarda sepet ve ürün yönetimi (CRUD) için entegre edilecektir.
 
 #Klasör Yapısı
-web-satis-sitesi/
-      css/
-          stil.css       # Proje renk paleti, düzen ve stil kuralları
-      img/
-           logo.png       # Ürün ve marka görselleri
-      js/
-            uygulama.js    # Dinamik işlevler ve sepet kodları
-      index.html         # Ana sayfa (Karşılama, Vizyon, İletişim Footer)
-      urunler.html       # Ürün kataloğu (Ceket & Pantolon)
-      urun-detay.html    # Seçilen ürünün detay bilgileri
-      sepet.html         # Sepet tablosu ve sipariş formu
+-web-satis-sitesi/
+      -css/
+          -stil.css       # Proje renk paleti, düzen ve stil kuralları
+      -img/
+           -logo.png       # Ürün ve marka görselleri
+      -js/
+            -uygulama.js    # Dinamik işlevler ve sepet kodları
+      -index.html         # Ana sayfa (Karşılama, Vizyon, İletişim Footer)
+      -urunler.html       # Ürün kataloğu (Ceket & Pantolon)
+      -urun-detay.html    # Seçilen ürünün detay bilgileri
+      -sepet.html         # Sepet tablosu ve sipariş formu
 
 #Proje herhangi bir sunucu veya veritabanı kurulumu gerektirmemektedir.
 -Bu depoyu (repository) bilgisayarınıza indirin veya klonlayın
